@@ -1,8 +1,17 @@
-{ 
-  "extends": "airbnb/base",
-  "rules": {
-    "no-underscore-dangle" : "off",
-    "no-plusplus": "off",
-    "import/extensions": "off"
-  }
+{
+    "extends": "airbnb/base",
+    "rules": {
+        "no-underscore-dangle": "off",
+        "no-plusplus": "off",
+        "import/extensions": "off",
+        "no-unused-vars": "warn",
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "no-console": "off",
+        "indent": "off",
+        "eol-last": "off",
+        "no-multiple-empty-lines": "off"
+    }
 }
