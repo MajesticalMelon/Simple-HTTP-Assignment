@@ -9,8 +9,8 @@
             "error",
             "windows"
         ],
+        "indent": ["error", 4],
         "no-console": "off",
-        "indent": "off",
         "eol-last": "off",
         "no-multiple-empty-lines": "off"
     }
